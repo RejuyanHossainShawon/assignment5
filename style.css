@@ -1,0 +1,20 @@
+.box-size {
+  border: 2px solid orange;
+  border-radius: 10px;
+  text-align: center;
+
+  height: 350px;
+  width: 350px;
+}
+
+.box-size img {
+  width: 345px;
+  height: 300px;
+  border-radius: 10px;
+}
+#searchResult {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
